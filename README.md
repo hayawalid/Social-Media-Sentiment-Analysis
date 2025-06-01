@@ -1,0 +1,7 @@
+Sentiment analysis helps decode the underlying emotions behind posts, reviews, and comments, enabling more informed decisions in marketing, product development, and social engagement strategies. By leveraging natural language processing techniques to analyze both Arabic and English social media data, this paper aims to capture and interpret the nuanced sentiments expressed by diverse user groups, thereby contributing to improved communication, targeted outreach, and enhanced understanding of public opinion in a globally connected world
+
+This project aims to analyze and classify user-generated text into sentiment categories such as Positive, Negative. We applied advanced natural language processing (NLP) techniques to machine learning and deep learning models to process and understand both English and Arabic text.
+
+For the English dataset, deep learning models like DistilBERT and BiLSTM showed strong performance, achieving metrics in the range of 80-81%. In contrast, traditional machine learning models such as XGBoost and LightGBM performed comparably well within their category for the English dataset with metrics around 63-68%.
+
+On the Arabic dataset, deep learning models, specifically BiLSTM and AraBERT, also exhibited high effectiveness, with performance metrics ranging from 80-82%. Among the machine learning models applied to the Arabic dataset, Logistic Regression, SVM, and XGBoost were among the top performers, generally achieving scores around 79-80%.
