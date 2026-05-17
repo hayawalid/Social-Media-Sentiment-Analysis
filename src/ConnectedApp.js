@@ -639,12 +639,15 @@ export default function App() {
                                                     border: `1px solid ${form.sortBy === sort ? REDDIT_ORANGE + "60" : "rgba(255,255,255,0.1)"}`,
                                                     background: form.sortBy === sort ? REDDIT_ORANGE + "18" : "rgba(255,255,255,0.04)",
                                                     backdropFilter: "blur(12px)",
-                                                    color: form.sortBy === sort ? REDDIT_ORANGE : "rgba(255,255,255,0.38)",
+                                                    color: form.sortBy === sort ? REDDIT_ORANGE : "rgba(255,255,255,0.6)",
                                                     cursor: "pointer",
                                                     transition: "all 0.22s ease",
                                                     fontSize: 13,
                                                     fontWeight: form.sortBy === sort ? 700 : 600,
                                                     textTransform: "capitalize",
+                                                    outline: "none",
+                                                    fontFamily: "inherit",
+                                                    minWidth: 60,
                                                 }}
                                             >
                                                 {sort}
